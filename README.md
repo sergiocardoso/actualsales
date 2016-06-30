@@ -41,8 +41,6 @@ No momento estamos reestruturando o departamento de TI e precisamos de um progra
 - Comissão Mensal sobre os resultados
 - 15 Salários Anuais
 
-Faixa salarial: 5k
-
 #### Como me candidatar?
 Não queremos ver o seu CV, mas sim o seu código.
 Para isso, elaboramos um pequeno teste de aptidões que pode ser realizado no seu tempo.
