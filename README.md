@@ -6,16 +6,16 @@ A ActualSales é uma empresa de marketing digital focada em performance.
 ## Vagas
 
 ### Developer Full Stack
-No momento estamos reestruturando o departamento de TI e precisamos de um programador experiente para **assumir a liderança da equipe de desenvolvimento web e desenvolver os projetos mais complexos**. Topa?
+Estamos procurando um developer interessado em dar continuidade  ao desenvolvimento e evolução de um projeto desafiador e ganhador de dois prêmios ABEMD Awards.
+Trata-se de uma plataforma de aquisição de **Cartões de Crédito Online**.
 
 #### Requisitos:
-- Experiência em Desenvolvimento Web, preferencialmente PHP
+- Experiência de no mínimo 4 anos em Desenvolvimento Web (PHP)
 - Conseguir se virar em qualquer situação que surja (no escopo de TI)
-- Sentir-se à vontade para ajudar e orientar os demais membros da sua equipe
 - Facilidade para lidar com clientes
 - Facilidade em trabalhar sobre pressão
-- Querer vivenciar a gestão de uma equipe de TI
 - Conhecimento e vontade (principalmente) de aplicar boas práticas e metodologias
+- Sentir-se à vontade para ajudar e orientar os demais membros da sua equipe
 
 #### Bônus:
 - Interesse por infra e ops
@@ -28,7 +28,7 @@ No momento estamos reestruturando o departamento de TI e precisamos de um progra
 - Bootstrap
 - Apache
 - Varnish
-- **Importante ressaltar que esse stack está sempre aberto para novas tecnologias**
+- Importante ressaltar que esse stack está sempre aberto para novas tecnologias
 
 #### Projetos:
 - Landing Pages
