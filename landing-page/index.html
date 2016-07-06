@@ -64,13 +64,13 @@
                                                 name="data_nascimento"
                                                 class="form-control" 
                                                 type="text" 
+                                                placeholder="dd/mm/YYYY"
                                                 ng-model="user.data_nascimento" 
-                                                ui-mask="99/99/9999"
                                                 ng-pattern="/^(0[1-9]|[12]\d|3[01])[\/]+(0?[1-9]|1[012])[\/]+(19|20)\d{2}$/"
                                                 required>
 
                                                 <!--//error block -->
-                                                <div ng-show="step_1.data_nascimento.$touched && step_1.data_nascimento.$error.pattern" class="alert alert-danger">Data de nascimento inválida</div>
+                                                <div ng-show="step_1.data_nascimento.$touched && step_1.data_nascimento.$error.pattern" class="alert alert-danger">Data de nascimento inválida (PADRAO: dd/mm/yyyy)</div>
                                                 <div ng-show="step_1.data_nascimento.$touched && step_1.data_nascimento.$error.required" class="alert alert-danger">Este campo é obrigatório</div>
                                         </div>
                                     </div>
@@ -99,8 +99,8 @@
                                                 class="form-control" 
                                                 type="text" 
                                                 ng-model="user.telefone" 
-                                                ui-mask="(99) 9999-9999"
-                                                ng-pattern="/^\([0-9]{2}\)+\s[0-9]{4}\-[0-9]{4}$/"
+                                                ui-mask="(99) 99999-9999"
+                                                ng-pattern="/^\([0-9]{2}\)+\s[9][0-9]{4}\-[0-9]{4}$/"
                                                 required>
 
                                                 <!--//error block -->
@@ -149,8 +149,8 @@
                                                 name="unidade"
                                                 ng-model="user.unidade"
                                                 ng-init="user.unidade"
-                                                ng-options="option for option in regions.actual.citys"
-                                                required>
+                                                ng-options="option.name for option in regions.actual.citys"
+                                                >
                                             </select>
 
                                             <div ng-show="step_2.unidade.$touched && step_2.unidade.$error.required" class="alert alert-danger">Este campo é obrigatório</div>
