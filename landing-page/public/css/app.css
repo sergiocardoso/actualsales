@@ -1,6 +1,6 @@
 @import url(@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700|Roboto:400,100,300,500,700|Roboto+Slab:400,100,300,700);
 *{margin:0px; padding:0px; font-family:'Roboto Condensed'; color:black;}
-body{background: #f2f2f2;border-top: 1em solid #53acef;}
+body{background: #070d12;border-top: 1em solid #53acef;}
 /* --- ROOT --- */
 
 .product_image{background:url(http://www.cnet.co.kr/wp-content/uploads/2016/07/20160704_sony_rx10_m3_title.jpg)  left;background-size:cover;height:400px;box-shadow: inset 0px -2px 4px rgba(0,0,0,.1);}
@@ -10,7 +10,7 @@ body{background: #f2f2f2;border-top: 1em solid #53acef;}
 .body{max-width: 600px;margin:-250px auto;z-index: 99;position: relative;}
 .body .info{width:300px; float:left;}
 .body .info .title{font-size:4em;font-family:'Roboto Slab';font-weight:600;line-height:1em;margin-bottom:15px;text-shadow: 0px 2px 2px rgba(0,0,0,.5);color: white;}
-.body .info .description{font-family:'Roboto Slab';font-size:1.5em;line-height:1.2em;color: white;text-shadow: 0px 2px 2px rgba(0,0,0,.5);}
+.body .info .description{font-family:'Roboto Slab';font-size:1.5em;line-height:1.2em;color: white;text-shadow: 0px 2px 2px rgba(0,0,0,.5);padding-right: 20px;}
 .body .form, .step3{background: #fbfbfb;width:300px;float:left;padding: 2em;/* height: 360px; */box-shadow:0px 2px 2px rgba(0,0,0,.05);border: 1px solid white;}
 
 .form .section{margin-bottom: 15px;border-bottom:1px dashed rgba(0,0,0,.2);padding-bottom:10px;font-size: 15px;text-transform: uppercase;}
@@ -21,23 +21,24 @@ body{background: #f2f2f2;border-top: 1em solid #53acef;}
 .form .field #cEmail{width:185px;display: inline;}
 .form .field #cTelefone{width:170px;display: inline;}
 
-.form #nextForm{border:2px solid black; padding:10px; background:none; clear:both; margin-top:10px;}
+.form #nextForm{border:2px solid black;padding:10px;background:none;clear:both;margin-top: 30px;}
 .form #nextForm:hover{background: #0092ff;border: 2px solid #0092ff;color:white;cursor:pointer;}
 
 .base{width:300px; float:left;}
 .steps{list-style:none;clear: both;margin-top: 14px;float: left;}
-.steps li{ display:inline-block; width:40px; border:2px solid black; border-radius:2em; text-align:center; padding:10px; font-weight:500; font-size:20px; opacity:.2; height:40px; padding-top:5px;}
-.steps li.dots{border:none; border-bottom:3px dotted rgba(0,0,0,.5); border-radius:0px; position:relative; top:-5px; width:80px}
+.steps li{display:inline-block;width:40px;border: 1px solid #fefefe;border-radius: 1em;text-align:center;padding:10px;font-weight:500;font-size:20px;opacity:.2;height:40px;padding-top:5px;color: white;}
+.steps li.dots{border:none;border-bottom: 1px solid rgba(255, 255, 255, 0.5);border-radius:0px;position:relative;top:-5px;width:80px;}
 .steps li.active{opacity:1;border-color: #2c79cd;color: #2c79cd;}
 
 .errorBlock{background:orange; border:none; border-radius:0px; padding:8px; font-size:10px; text-transform:uppercase; background:red; color:white; margin-top:10px;}
-#cRegiao, #cUnidade{padding:10px; background:none; border:none; display:block; width:100%; box-shadow:0px 2px 2px rgba(0,0,0,.2); background:white; height:50px;}
+#cRegiao, #cUnidade{padding:10px;background:none;border:none;display:block;width: 178px;box-shadow:0px 2px 2px rgba(0,0,0,.2);background:white;height: 36px;float: right;}
 .step3 h1{font-family:'Roboto Slab'; font-size:20px;}
 
 
 .baseOther{margin-top:80px; margin-right:30px;}
-.baseOther .otherInfos{height: 173px;border:1px dashed rgba(0,0,0,.2);padding:20px;margin-bottom:20px;}
-.baseOther .otherInfos .title{color:black; text-shadow:none; font-size:16px; font-family:'Roboto'; font-weight:100;}
-.baseOther .otherInfos .description{font-weight:500; color:black; text-shadow:none; font-size:20px;}
+.baseOther .otherInfos{height: 173px;border: 1px dashed rgba(255, 255, 255, 0.2);padding:20px;margin-bottom:20px;}
+.baseOther .otherInfos .title{color: white;text-shadow:none;font-size:16px;font-family:'Roboto';font-weight:100;}
+.baseOther .otherInfos .description{font-weight: 100;color: white;text-shadow:none;font-size: 16px;font-family: 'Roboto';}
 
 .errorData{background:red; padding:10px; margin-top:200px; clear:both; text-align:center; color:white}
+.badged{background:red; display:inline-block; padding:5px; border-radius:.5em; text-transform:uppercase; font-size:10px; font-weight:500; color:white;}

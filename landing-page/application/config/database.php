@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
+	'hostname' => 'actualsales.mysql.dbaas.com.br',
+	'username' => 'actualsales',
+	'password' => 'actualsales',
 	'database' => 'actualsales',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

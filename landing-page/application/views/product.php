@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Compre já</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <!--//css-->
     <link rel="stylesheet" href="<?=$public_view;?>/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=$public_view;?>/bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?=$public_view;?>/css/app.css">
+    <link rel="stylesheet" href="<?=$public_view;?>/css/mobile.css">
 
     <!--//js-->
     <script src="<?=$public_view;?>/bower_components/jquery/dist/jquery.min.js"></script>
@@ -29,14 +31,15 @@
     <div class="body">
         
         <div class="info">
-            <div class="title">Nome do Produto</div>
-            <div class="description">Aqui vai uma efetiva descrição com informações relevantes deste produto.</div>
+            <div class="badged">lançamento</div>
+            <div class="title">Sony RX10</div>
+            <div class="description">Receba antes do lançamento oficial mais informações sobre a nova câmera DSLR da Sony.</div>
 
             <div class="baseOther">
 
                 <div class="otherInfos">
-                    <div class="title">Outra informação</div>
-                    <div class="description">maiores detalhes sobre o produto</div>
+                    <div class="title">Integração e Profissionalismo</div>
+                    <div class="description">Com wi-fi integrado e aplicativo profissionais para comunicação mobile. Preencha o cadastro ao lado para obter mais informações.</div>
                 </div>
             </div>
 
@@ -133,7 +136,8 @@
                             id="cRegiao" 
                             ng-model="user.regiao"
                             ng-change="changeRegion(user.regiao)"
-                            ng-options="options.nome_regiao for options in regiao track by options.id">
+                            ng-options="options.nome_regiao for options in regiao track by options.id"
+                            required>
                                 
                         </select>
 
@@ -148,7 +152,8 @@
                             name="unidade" 
                             id="cUnidade" 
                             ng-model="user.unidade"
-                            ng-options="options.nome_unidade for options in unidade track by options.id">
+                            ng-options="options.nome_unidade for options in unidade track by options.id"
+                            required>
                         </select>
 
                         <!--//error block -->

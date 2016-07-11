@@ -1,0 +1,14 @@
+/* MEDIA QUERIES */
+/* SMARTPHONES */
+@media (max-width:600px) {
+    .body{margin:0;padding:1.2em;margin: 1em;}
+    .highlight{background:none !important;}
+    .pattern{background:none !important;}
+    .product_image{height: 170px;}
+    .body .info{width:100%;}
+    .title{font-size:2em !important;}
+    .description{font-size:1.5em !important;}
+    .baseOther{display:none;}
+    .base{margin-top:20px;width: 100%;}
+    .form{width:100% !important; }
+}

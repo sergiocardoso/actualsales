@@ -23,7 +23,7 @@ angular.module('ActualSales', ['ui.mask'])
     $scope.unidade = [];
 
     $scope.gotoNext = function(){
-        // if($scope.step_1.$valid)
+        if($scope.step_1.$valid)
         {
             $scope.forms.form1 = !$scope.forms.form1;
             $scope.forms.form2 = !$scope.forms.form2;
